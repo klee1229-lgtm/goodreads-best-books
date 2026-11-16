@@ -11,7 +11,7 @@ Goodreads' "Best Books Ever" list ranks 52,000+ books by reader votes. We asked 
 
 ## 1. The Author as a Brand
 
-<img src="dashboards/1_author_as_a_brand.png" width="100%" alt="Author as a Brand dashboard"/>
+<img src="dashboards/1_author_as_a_brand_v2.png" width="100%" alt="Author as a Brand dashboard"/>
 
 - 184 authors qualify as "prolific" (20+ books, 1,000+ ratings per book on average)
 - J.K. Rowling has the largest audience (24.4M ratings) and the highest 5-star share among the top five, so she is the strongest brand on both axes
@@ -20,7 +20,7 @@ Goodreads' "Best Books Ever" list ranks 52,000+ books by reader votes. We asked 
 
 ## 2. The Polarization Lens
 
-<img src="dashboards/2_polarization_lens.png" width="100%" alt="Polarization Lens dashboard"/>
+<img src="dashboards/2_polarization_lens_v2.png" width="100%" alt="Polarization Lens dashboard"/>
 
 An average rating hides whether readers agree. Plotting 5-star share against 1-star share splits books into loved, hated, divisive, and middle ground.
 
@@ -31,7 +31,7 @@ An average rating hides whether readers agree. Plotting 5-star share against 1-s
 
 ## 3. Famous vs. Loved: The Canon Problem
 
-<img src="dashboards/3_famous_vs_loved.png" width="100%" alt="Famous vs Loved dashboard"/>
+<img src="dashboards/3_famous_vs_loved_v2.png" width="100%" alt="Famous vs Loved dashboard"/>
 
 - Position on the "Best Books Ever" list correlates **0.71 with how many people rated a book** and only **0.02 with how highly they rated it**. The list is a popularity vote, not a quality measure
 - 19 books are famous but unloved (200K+ list score, rating under 3.9): mostly school canon such as Lolita, Don Quixote, Of Mice and Men
@@ -39,7 +39,7 @@ An average rating hides whether readers agree. Plotting 5-star share against 1-s
 
 ## Recommendations
 
-<img src="dashboards/4_summary_and_recommendations.png" width="100%" alt="Summary and Recommendations dashboard"/>
+<img src="dashboards/4_summary_and_recommendations_v2.png" width="100%" alt="Summary and Recommendations dashboard"/>
 
 Each metric answers a different publisher question: total ratings for reach, average rating for satisfaction, 5-star share for loyalty, 1-star share for rejection risk, list score for cultural visibility. Full recommendations in the dashboard above.
 
