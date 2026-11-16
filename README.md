@@ -1,5 +1,7 @@
 <img src="assets/header.svg" width="100%" alt="What Makes a Book Great?"/>
 
+**Top score in the class, BUDT 758D Data Visualization.** Three Tableau dashboards on 52,249 Goodreads books.
+
 Goodreads' "Best Books Ever" list ranks 52,000+ books by reader votes. Does the list, or the star rating next to each book, tell you what readers actually love? We built three Tableau dashboards to check, each looking at the same data from a different angle: the author, the rating, and the list itself.
 
 **[Interactive dashboards on Tableau Public](https://public.tableau.com/app/profile/youngseo.chang/viz/Whatmakesabookgreat-AnanalysisofGoodreadsdata/Story)**
