@@ -11,13 +11,7 @@ Goodreads' "Best Books Ever" list ranks 52,000+ books by reader votes. We asked 
 
 ## 1. The Author as a Brand
 
-<img src="dashboards/1a_top_authors.png" width="100%" alt="Top five authors by total ratings"/>
-<p>
-  <img src="dashboards/1b_loyalty.png" width="49%" alt="Audience size vs. 5-star share"/>
-  <img src="dashboards/1c_genre_consistency.png" width="49%" alt="Rating consistency by genre"/>
-</p>
-
-[Full dashboard](dashboards/full/1_author_as_a_brand.png)
+<img src="dashboards/1_author_as_a_brand.png" width="100%" alt="Author as a Brand dashboard"/>
 
 - 184 authors qualify as "prolific" (20+ books, 1,000+ ratings per book on average)
 - J.K. Rowling has the largest audience (24.4M ratings) and the highest 5-star share among the top five, so she is the strongest brand on both axes
@@ -26,17 +20,7 @@ Goodreads' "Best Books Ever" list ranks 52,000+ books by reader votes. We asked 
 
 ## 2. The Polarization Lens
 
-<img src="dashboards/2a_kpis.png" width="100%" alt="Polarization KPIs"/>
-<p>
-  <img src="dashboards/2b_quadrant.png" width="64%" alt="Polarization quadrant scatter"/>
-  <img src="dashboards/2c_genre_polarization.png" width="34%" alt="Polarization by genre"/>
-</p>
-<p>
-  <img src="dashboards/2d_most_polarizing.png" width="49%" alt="Most polarizing books"/>
-  <img src="dashboards/2e_highest_5star.png" width="49%" alt="Highest 5-star share"/>
-</p>
-
-[Full dashboard](dashboards/full/2_polarization_lens.png)
+<img src="dashboards/2_polarization_lens.png" width="100%" alt="Polarization Lens dashboard"/>
 
 An average rating hides whether readers agree. Plotting 5-star share against 1-star share splits books into loved, hated, divisive, and middle ground.
 
@@ -47,14 +31,7 @@ An average rating hides whether readers agree. Plotting 5-star share against 1-s
 
 ## 3. Famous vs. Loved: The Canon Problem
 
-<img src="dashboards/3a_kpis.png" width="100%" alt="Famous vs Loved KPIs"/>
-<img src="dashboards/3b_scatter.png" width="100%" alt="BBE score vs. rating"/>
-<p>
-  <img src="dashboards/3c_famous_unloved.png" width="49%" alt="Famous but unloved books"/>
-  <img src="dashboards/3d_loved_overlooked.png" width="49%" alt="Loved but overlooked books"/>
-</p>
-
-[Full dashboard](dashboards/full/3_famous_vs_loved.png)
+<img src="dashboards/3_famous_vs_loved.png" width="100%" alt="Famous vs Loved dashboard"/>
 
 - Position on the "Best Books Ever" list correlates **0.71 with how many people rated a book** and only **0.02 with how highly they rated it**. The list is a popularity vote, not a quality measure
 - 19 books are famous but unloved (200K+ list score, rating under 3.9): mostly school canon such as Lolita, Don Quixote, Of Mice and Men
@@ -62,10 +39,7 @@ An average rating hides whether readers agree. Plotting 5-star share against 1-s
 
 ## Recommendations
 
-<img src="dashboards/4a_overview.png" width="100%" alt="Data overview and key findings"/>
-<img src="dashboards/4b_recommendations.png" width="100%" alt="Four recommendations"/>
-
-[Full dashboard](dashboards/full/4_summary_and_recommendations.png)
+<img src="dashboards/4_summary_and_recommendations.png" width="100%" alt="Summary and Recommendations dashboard"/>
 
 Each metric answers a different publisher question: total ratings for reach, average rating for satisfaction, 5-star share for loyalty, 1-star share for rejection risk, list score for cultural visibility. Full recommendations in the dashboard above.
 
@@ -87,7 +61,7 @@ Each metric answers a different publisher question: total ratings for reach, ave
 ## Repository
 
 ```
-dashboards/              chart crops used in this README; dashboards/full/ has each dashboard whole
+dashboards/              exported dashboard images
 data/books_clean.csv     cleaned dataset used by the workbook (52,249 books, 37 columns)
 docs/tableau_build_plan.pdf   dashboard specification: parameters, calculated fields, charts, interactions
 ```
